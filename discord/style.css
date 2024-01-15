@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&family=Roboto:ital,wght@0,100;1,100;1,300&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /* height: 5000px; */
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 80px;
+    color: white;
+}
+
+.list li {
+    margin: 0 20px; /* Adjust the spacing between list items */
+}
+
+#opendiscord {
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+}
+.upbox{
+    height: 600px;
+    background-color: brown;
+    background-image: url(background2.png);
+    background-size: cover;
+    
+}
+.logo img{
+width: 50px;
+height: 50px;
+border-radius: 50px;
+}
+h1{
+    margin: auto;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+.upbox-content{
+   /* background-color: red; */
+   height: 300px;
+   width: 900px;
+   margin: auto;
+   margin-top: 150px;
+   text-align: center;
+   color: white;
+   /* word-spacing: 10px; */
+}
+.midbutton button{
+    width: 293px;
+    line-height: 24px;
+    font-weight: 500;
+    border-radius: 25px;
+    height: 56px;
+    margin-top: 35px;
+    font-size: 17px;
+}
+.midbox1{
+    height: 650px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.midbox1content{
+    margin-top: 125px;
+    /* display: flex; */
+    justify-content: space-between;
+   
+}
+h2{
+    font-size: 42px;
+    margin-top: 65px;
+    line-height: 120%;
+}
+.midbox1text{
+    margin-top: 15px;
+    width: 350px;
+    margin-right: 50px;
+    /* margin-bottom: 10px; */
+    
+}
+.midbox2{
+    height: 600px;
+    background-color: rgb(240, 234, 234);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.midbox2text{
+    margin-top: 15px;
+    width: 350px;
+    margin-right: 50px;
+    /* margin-bottom: 10px; */
+    
+}
+.midbox3{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.midbox3text{
+    margin-top: 15px;
+    width: 350px;
+    margin-right: 50px;
+    /* margin-bottom: 10px; */
+    
+}
+.midbox4{
+   margin: auto;
+}
+
+ @media screen and (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+
+    .upbox {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        height: 600px;
+    }
+
+    .upbox-content {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .midbutton button {
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+
+    .midbox1, .midbox2, .midbox3 {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .midbox1content, .midbox2content, .midbox3content {
+        margin-top: 20px;
+    }
+
+    h2, .midbox1text, .midbox2text, .midbox3text {
+        width: 100%;
+        margin-right: 0;
+    }
+    .list{
+        display: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    body {
+        font-size: 14px;
+    }
+
+    .upbox {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        width: 95%;
+        height: 600px;
+    }
+
+    .upbox-content {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .midbutton button {
+        width: 100%;
+        margin-top: 20px;
+       margin-left: 7px;
+       margin-right: 7px;
+    }
+
+    .midbox1, .midbox2, .midbox3 {
+        height: auto;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .midbox1content, .midbox2content, .midbox3content {
+        margin-top: 20px;
+    }
+
+    h2, .midbox1text, .midbox2text, .midbox3text {
+        width: 100%;
+        margin-right: 0;
+    }
+    .list{
+        display: none;
+    }
+   
+}
+@media screen and (max-width: 500px) {
+   
+    .midbutton {
+        text-align: center;
+    }
+
+    .midbutton button {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
